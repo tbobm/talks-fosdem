@@ -196,7 +196,7 @@ Building containers with C M ?
 P is creation of system
 C M managing state on those systems
 O actions performed at scale on system
-Containers changed the 4, but did not replace.
+Containers changed the 4, but did not replace them.
 
 ------
 Immutble infrastrucure is not the anwser
