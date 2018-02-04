@@ -13,3 +13,4 @@
 - File access-control per container with Landlock
 - Introduction to LXD clustering
 - Vis Editor
+- Writing Node.js modules in Rust
