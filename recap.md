@@ -9,3 +9,4 @@
 ### Sunday
 
 - Provisioning vs Configuration Management & Deployment vs Orchestration
+- How to build and run OCI containers
