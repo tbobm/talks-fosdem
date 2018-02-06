@@ -52,7 +52,7 @@ hared/pub templates for most common setups (customizable)
 - tmpfiles (if needed)
 - manifest.json for default values (if needed)
 - config.json
-[projectatomic](1)
+[projectatomic][1]
 
 ```bash
 git clone $REPO_URL .
