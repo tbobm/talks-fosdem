@@ -6,8 +6,8 @@ author: strigazi
 
 Linux containers = process controlled by linux cgroups and namespaces
 
-OCI C: defined by OCI spec
-- runtime-spec: defines config.json from which runtime know to run C
+OCI container: defined by OCI spec
+- runtime-spec: defines config.json from which runtime know to run container
 - image-spec: defines OCI image: 
       + Manifest, (image index)
       + set of FS layers, and config
@@ -66,11 +66,13 @@ sudo systemctl start $NAME
 
 ```bash
 man 7 namespaces
-``````
+```
+
 - namespaces (mount, cgroup, ipc, network, pid, users, uts) (uts?)
 - capabilities bouding
 - mounts
-    ```json
+
+```json
 {
     "type": "bind",
     "source": "src",
