@@ -73,3 +73,17 @@ Piggyback on requests
 
 > Slow boiling frog problem
 
+# Personal notes
+
+The new version is really interesting, but there is a need
+to test in prior to confirming anything.
+
+I'm not sure it would fit small projects, but bigger applications
+(with differents needs such as data persistance and all, see 
+[sequence numbers](# Sequence numbers)) could benefit from it.
+
+In addition I'm in fond of the rolling update feature, which
+is becoming a must-have for this kind of storage.
+
+The strictness provided by the 5.0 is a real plus too, but I
+didn't have the occasion to test its lack in lower versions.
