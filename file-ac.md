@@ -166,3 +166,10 @@ user space hardening:
 Excellent against defacing. Allows to easily sandbox
 
 site: https://landlock.io
+
+
+# Personal notes
+
+This is a big subject which I may look up after when I have some time.
+But in any case, this provided some knowledge I didn't have
+(i.e.: SELinux, hooks at kernel level...)
