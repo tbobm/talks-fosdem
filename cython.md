@@ -44,3 +44,22 @@ Can include raw C code.
 ## Future
 
 Comprehensions into C++ containers?
+
+
+# Personnal notes
+
+Cython is therefore a really nice option when speed and performances are
+starting to have to be taken in account in an application.
+
+I don't think starting a program from scratch using Cython has an interest,
+but I may be wrong.
+
+Other alternatives:
+
+Write program in lower level languages
+**OR**
+Write some parts of the program in lower languages.
+i.e.:
+- Rust
+- C/C++
+- Go
