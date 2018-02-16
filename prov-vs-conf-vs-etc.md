@@ -23,7 +23,7 @@ should puppet do X ? sometimes no
 
 **Infrastructure as Code**
 
-Eliminate config drift using IaC
+Eliminate config drift using Infrastructure as Code
 > Automation
 avoids shell scripts, people's brain and stuff
 
@@ -47,7 +47,7 @@ can be deprecated, workarounds are needed...
 > TugBoat @DigitalOcean
 
 
-Deprecated of DO 1.0
+Deprecated of Digital Ocean1.0
 
 forge.puppet.com
 
@@ -75,7 +75,7 @@ Config management + provisioning = single source of truth
 
 - Hard to scale
 - Hard to read
-- Wundows ?
+- Windows ?
 
 
 ## History of config management
@@ -107,7 +107,7 @@ Easy for drift to occur & hard to maintain
 
 ## Deployment
 
-D has come a long way
+Docker has come a long way
 
 "Good" old days
 
@@ -116,13 +116,13 @@ Every lang has its own
 
 Ruby - Capistrano
 Python > Fabric
-PHP > Deployer
+PHP> Deployer
 
 --- 
 
-Deployment otol = Roolback or failure management <3
+Deployment tool = Roolback or failure management <3
 
-D is generally Dev owned
+Docker is generally Dev owned
 Config management more ops owned
 
 Collaboration: DevOps
@@ -145,7 +145,7 @@ Package release as deployment
 
 ## Orchestration
 
-Diff between O and CM
+Diff between Orchestration and Configuration management
 
 - info gathering and sys intel
 - one-off tasks doesnt fit in state-based
@@ -153,51 +153,59 @@ Diff between O and CM
 - emergency: "oh god need fix"
 
 
-Ansible feels more orchestration-y than other C M tools
+Ansible feels more orchestration-y than other Configuration management tools
 
-Ssh most basic O tool:w
+Ssh most basic Orchestration tool:w
 > @pssh = parallel ssh
 
 ### We want to get more advanced
 
-> O tools come in
+> Orchestrationtools come in
 
-most C M tools have O app or tool too
+most Configuration management tools have Orchestrationapp or tool too
 
 puppet // bolt
           bolt plans
 Knife
 
-Docker docker dokcer dokcer
+Docker docker docker docker
 Containers Containers Containers
 
-P is least affected
+Provisionning is least affected
 (especially if PaaS)
 
 ---
-Do we need C M or  if have containers?
+Do we need Configuration management or  if have containers?
 > it depends.
 
-There is place for C M in containers world
+There is place for Configuration management in containers world
 
 > % of Orgs using each tool or platform
 
 Host is not a container.
 
-P: Puppet AWS, Knife, Terraform...
-Setup O: Puppet ?
+Provisioning: Puppet AWS, Knife, Terraform...
+Setup Orchestration: Puppet ?
 Container platform: manages the reste.
 
-Building containers with C M ?
+Building containers with Configuration management ?
 `puppet docker...`
 
 ---
 
-P is creation of system
-C M managing state on those systems
-O actions performed at scale on system
+Provisionningis creation of system
+Configuration management managing state on those systems
+Orchestration actions performed at scale on system
 Containers changed the 4, but did not replace them.
 
 ------
 Immutble infrastrucure is not the anwser
 Immutble infrastrucure is really great
+
+^ Opinions diverge
+
+------
+
+# Personal notes
+
+
