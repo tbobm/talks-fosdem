@@ -97,3 +97,5 @@ painless is the new default; python ruby and groovy deprecated.
 # Personal notes
 
 Watch that lightning talk again later.
+
+potential talk ?
