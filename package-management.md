@@ -29,12 +29,12 @@ Fast & flexible || Reliable
 
 ## The ties that bind
 
-Oackage M = Risk M
-Modern PM made of communities
+Package M = Risk M
+Modern package manager made of communities
 
 ### What is a package anyway ?
 
-Floor of definition = Nbr of PM
+Floor of definition = Nbr of package managers
 Deeply incompatible.
 
 -----
@@ -86,7 +86,7 @@ Registries create a view of a projectable slice of this universe
 Rules, norms, lints are made to obey then and create a helpful ecosystem
 > Good actor of the system (follows guidelines), ability to trust
 
-"Packagine rules define norms that people are expected to obey"
+"Packaging rules define norms that people are expected to obey"
 
 ## The history
 
@@ -103,12 +103,12 @@ Turing: State of a program is good.
 
 ### Modular programming
 
-//Structured prog
+//Structured programming
 Separation of concerns
 Information hiding
 
 
-P define relationship to logic via modules
+Programming define relationship to logic via modules
 
 ## Unbinding the Boundaries
 
@@ -117,17 +117,18 @@ http://package.community
 
 ### System vs Language
 
-Sys 
+System:
 - Usually create combinatorially safe package universes
 - finite group of people work on populating them
 - version constraint; usually good; higher quality
 
 - encode more at the metadata level
 
-Lang
+Language:
+- .
 
 -----
-Tu duplicate or not?
+To duplicate or not?
 
 nix and npm duplicate, most others dont
 
