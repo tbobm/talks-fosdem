@@ -1,7 +1,9 @@
 # OCI containers
 
-author: Spyros Trigazis
-url: [How to build and run OCI containers][1]
+_author_: Spyros Trigazis
+
+_url_: [How to build and run OCI containers][1]
+
 
 > A shallow dive on the OCI container configuration and an overview of the available tools
 
