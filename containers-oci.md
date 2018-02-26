@@ -1,6 +1,9 @@
 # OCI containers
 
-author: strigazi
+author: Spyros Trigazis
+url: [How to build and run OCI containers][1]
+
+> A shallow dive on the OCI container configuration and an overview of the available tools
 
 ## Intro
 
@@ -15,9 +18,9 @@ OCI container: defined by OCI spec
 
 ## Why do we need them?
 
-Containers need supervisoer(S) eg: docker daemon, kubelet, systemd...
+Containers need supervisor(S) eg: docker daemon, kubelet, systemd...
 
-Kubernetes implemented its own cri spec
+Kubernetes implemented its own CRI specifications.
 
 cri-containerd:cri implementation based on containerd
 cri-o: implementation on runc
@@ -52,7 +55,7 @@ hared/pub templates for most common setups (customizable)
 - tmpfiles (if needed)
 - manifest.json for default values (if needed)
 - config.json
-[projectatomic][1]
+[projectatomic][2]
 
 ```bash
 git clone $REPO_URL .
@@ -83,4 +86,5 @@ man 7 namespaces
 
 
 
-[1]: https://github.com/projectatomic/atomic-system-containers
+[1]: https://fosdem.org/2018/schedule/event/containers_build_oci/
+[2]: https://github.com/projectatomic/atomic-system-containers
