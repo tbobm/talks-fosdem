@@ -92,3 +92,10 @@ need just the right features for elasticsearch
 painless is the new default; python ruby and groovy deprecated.
 
 ## Shodan
+
+
+# Personal notes
+
+Watch that lightning talk again later.
+
+potential talk ?
